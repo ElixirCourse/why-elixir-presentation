@@ -56,7 +56,7 @@
 ```
 
 #HSLIDE
-## Това че Elixir e функционален език значи:
+## Това че Elixir е функционален език значи:
 
 #HSLIDE
 ### Непроменими (immutable) структури от данни
@@ -98,7 +98,7 @@ Tова означава, че ако искаме някаква промяна
 
 #HSLIDE
 Тъй като Elixir e млад език е добре да разгледаме
-кой и защо ползва основата му - <span style="color:gray; font-size:1.5em">Erlang</span>.
+кой и защо ползва основата му - <span style="color:gray; font-size:2em">Erlang</span>.
 
 #HSLIDE
 * Amazon - за базата данни SimpleDB
