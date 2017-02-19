@@ -1,377 +1,307 @@
 #HSLIDE
-
-## The Kitchen Sink
-##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
+## Защо Elixir?
 
 #HSLIDE
-## Slideshow Theme Switcher
-<span style="font-size:0.6em; color:gray">Available bottom-left of screen.</span> |
-<span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
+![Image-Absolute](assets/Elixir_of_Life.jpg)
 
 #HSLIDE
-
-## Tip!
-For best viewing experience press **F** key to go fullscreen.
-
-#HSLIDE
-
-## Markdown Slides
-<span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown" target="_blank">GitPitch Wiki</a> for details.</span>
-
-
-#VSLIDE
-
-#### Use GitHub Flavored Markdown
-#### For Slide Content Creation
-
-<br>
-
-The same tool you use to create project **READMEs** and **Wikis** for your Git repos.
+## Няколко факта за езика:
+![Image-Absolute](assets/elixir.png)
 
 #HSLIDE
+* Езикът се ползва някъде от 2013 година, което го прави доста млад, тепърва
+  има да набира популярност.
 
-## Code Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Code-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+#HSLIDE
+* Създателят на Elixir, Хосе Валим (José Valim) идва от ruby/rails света. Това
+  малко или много се е отразило на синтаксиса на езика.
 
-#VSLIDE
+#HSLIDE
+* Elixir върви на виртуалната машина на Erlang и може да ползва всичко написано
+  на Erlang. Това се отразява добре на бързината и конкурентността му. Като
+  цяло не е твърде далеч от истината да кажем че е по-човешки Erlang. Може
 
-#### Use Markdown Code Blocks
+#HSLIDE
+* Подобно на Ruby си има web framework - Phoenix, съпоставим на Rails по начин
+  на писане, но не и по производителност, в положителния смисъл.
 
-<br>
+#HSLIDE
+* Функционален език е. Това е голям плюс когато става въпрос за конкурентност.
+  Също малко или много ще преобърне представите ви за програмиране.
 
-And enjoy code syntax highlighting for dozens of languages powered by <a target="_blank" href="highlight.js](https://highlightjs.org">highlight.js</a>.
+#HSLIDE
+* Функционален език е. Това е голям плюс когато става въпрос за конкурентност.
+  Също малко или много ще преобърне представите ви за програмиране.
 
-#VSLIDE
+#HSLIDE
+**Elixir e среавнително нов функционален език, но е построен върху нещо изпитано и направено с цел да се справя добре в конкурентна среда.**
 
-```JavaScript
-// JavaScript Code Block
+#HSLIDE
+## Защо Elixir?
+### Защото е функционален език!
 
-$('button').click(function(){
-    $('h1, h2, p').addClass('blue')
-    $('div').removeClass('important')
-    $('h3').toggleClass('error')
-    $('#foo').attr('alt', 'Lorem Ipsum')
-});
-```
+#HSLIDE
+![Image-Absolute](assets/functional.png)
 
-#VSLIDE
+#HSLIDE
+* В Elixir функциите са основните градивни единици.
+* Обикновено логиката представлява поредица от композирани функции.
 
-```Scala
-// Scala Code Block
+#HSLIDE
+Нещо подобно на:
 
-HashMap params = HashMap(n -> 10, mean -> 5)
+```elixir
+[1, 2, 3, 4, 5]
+  |> Enum.map(fn n -> n * n end)
+  |> Enum.filter(fn n -> n > 10 end)
+  |> Enum.reduce(1, &(&1 + &2))
 
-// Define executable for R stats#rnorm function call.
-OCPUTask task = OCPU.R()
-                    .pkg("stats")
-                    .function("rnorm")
-                    .input(params.asJava)
-                    .library()
-```
-
-#VSLIDE
-
-```Go
-// Go Code Block
-
-package main
-
-import "fmt"
-
-func swap(x, y string) (string, string) {
-    return y, x
-}
-
-func main() {
-    a, b := swap("hello", "world")
-    fmt.Println(a, b)
-}
+# -> 42
 ```
 
 #HSLIDE
-
-## GIST Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/GIST-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### GitHub GIST
-#### Building Blocks For Any Presentation
-
-<br>
-
-Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentation and styling. 
-
-#VSLIDE?gist=8da53731fd54bab9d5c6
-
-#VSLIDE?gist=28ee3d19ddef9d51b15adbdfe9ed48da
+## Това че Elixir e функционален език значи:
 
 #HSLIDE
-
-## Image Slides
-## [ Inline ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Make A Visual Statement
-
-<br>
-
-Use inline images to lend a *visual punch* to your slideshow presentations.
-
-
-#VSLIDE
-
-<span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
-
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
-
-<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
-
-
-#VSLIDE
-
-<span style="color:gray; font-size:0.7em">Inline Image at GitHub Repo <b>Relative URL</b></span>
-
-![Image-Absolute](assets/octocat-de-los-muertos.jpg)
-
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by <a href="https://github.com/cameronmcefee" target="_blank">cameronmcefee</a></span>
-
-
-#VSLIDE
-
-<span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
-
-![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
-
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
+### Непроменими (immutable) структури от данни
+Tова означава, че ако искаме някаква промяна в дадената структура,
+правим нова базирана на старата, с разлика - тази промяна.
 
 #HSLIDE
-
-## Image Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Make A Bold Visual Statement
-
-<br>
-
-Use high-resolution background images for maximum impact.
-
-#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
-
-#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/127.jpg
-
+### Функции без странични ефекти
+Колкото и пъти да ги извиквате с едни и същи параметри,
+ще връщата същия резултат и няма да променят никакво глобално/локално състояние.
 
 #HSLIDE
-
-## Video Slides
-## [ Inline ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Bring Your Presentations Alive
-
-<br>
-
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
-
-#VSLIDE
-
-![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
-
-#VSLIDE
-
-![Vimeo Video](https://player.vimeo.com/video/125471012)
-
-#VSLIDE
-
-![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
-
+### От друга страна езикът не е `pure`
+Така че може да има странични ефекти, просто е хубаво да се отбягват.
 
 #HSLIDE
-
-## Video Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Maximize The Viewer Experience
-
-<br>
-
-Go fullscreen with *MP4* and *WebM* videos.
-
-#VSLIDE?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+### Функции от по висок ред
+Приемащи или връщащи (или и двете) други функции.
 
 #HSLIDE
-
-## Math Notation Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-
-#### Beautiful Math Rendered Beautifully
-
-<br>
-
-Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https://www.mathjax.org/">MathJax</a>.
-
-#VSLIDE
-
-`$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
-
-#VSLIDE
-
-`\begin{align}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{align}`
-
-#VSLIDE
-
-##### The Cauchy-Schwarz Inequality
-
-`\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\]`
-
-#VSLIDE
-
-##### The probability of getting \(k\) heads when flipping \(n\) coins is:
-
-`\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]`
-
-#VSLIDE
-
-##### In-line Mathematics
-
-This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
+### Функции от по висок ред
+Приемащи или връщащи (или и двете) други функции.
 
 #HSLIDE
-
-## Slide Fragments
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Reveal Slide Concepts Piecemeal
-
-<br>
-
-Step through slide content in sequence to slowly reveal the bigger picture.
-
-#VSLIDE
-
-- Java
-- Groovy     <!-- .element: class="fragment" -->
-- Kotlin     <!-- .element: class="fragment" -->
-- Scala     <!-- .element: class="fragment" -->
-- The JVM rocks! <!-- .element: class="fragment" -->
-
-#VSLIDE
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>25</td>
-  </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>43</td>
-  </tr>
-</table>
+### Композиция на функции
+* Подобно на тези в математиката `F = f(g)` и `F(x) = f(g(x))`.
+* Elixir идва с улеснен синтаксис за това `x |> g |> f`.
 
 #HSLIDE
-## <span style="text-transform: none">PITCHME.yaml</span> Settings
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Stamp Your Own Look and Feel
-
-<br>
-
-Set a default theme, custom logo, custom css, background image, and preferred code syntax highlighting style.
-
-#VSLIDE
-
-#### Customize Slideshow Behavior
-
-<br>
-
-Enable auto-slide with custom slide intervals, presentation looping, and RTL flow.
-
+### Рекурсия
+Рекурсия се обяснява най-лесно с рекурсия.
 
 #HSLIDE
-## Slideshow Keyboard Controls
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Try Out These Great Features Now!
-
-<br>
-
-| Mode | On Key | Off Key |
-| ---- | :------: | :--------: |
-| Fullscreen | F |  Esc |
-| Overview | O |  O |
-| Blackout | B |  B |
-| Help | ? |  Esc |
-
+### Конкурентност и паралелизъм
 
 #HSLIDE
-
-## GitPitch Social
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge" target="_blank">GitPitch Wiki</a> for details.</span>
-
-#VSLIDE
-
-#### Slideshows Designed For Sharing
-
-<br>
-
-- View any slideshow at its public URL
-- [Promote](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) any slideshow using a GitHub badge
-- [Embed](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Embedding) any slideshow within a blog or website
-- [Share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) any slideshow on Twitter, LinkedIn, etc
-- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as a PDF document
-- [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
+![Image-Absolute](assets/parallel.jpg)
 
 #HSLIDE
+## Защо Elixir?
+### Защото е Erlang!
+![Image-Absolute](assets/erlang.png)
 
-## GO FOR IT.
-## JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
+#HSLIDE
+Тъй като Elixir e млад език е добре да разгледаме
+кой и защо ползва основата му - <span style="color:gray; font-size:0.7em">Erlang</span>.
+
+#HSLIDE
+* Amazon - за базата данни SimpleDB
+* Yahoo! - за URL bookmarking  <!-- .element: class="fragment" -->
+* Facebook - real-time съобщенията  <!-- .element: class="fragment" -->
+* WhatsApp - написана на Erlang, real-time съобщения, купена от Facebook  <!-- .element: class="fragment" -->
+
+#HSLIDE
+* T-Mobile, Motorola, Ericsson - за SMS услуги и 3G мрежи. Ericsson са създатели на Erlang.
+* RabbitMQ - AMQP имплементация  <!-- .element: class="fragment" -->
+* CouchDB - популярна база данни  <!-- .element: class="fragment" -->
+* Riak - data store  <!-- .element: class="fragment" -->
+
+#HSLIDE
+* Разбира се Erlang си има и минусите, да речем няма истински низове и добри инструменти за web разработка.
+* Нещо което е допълнено от Elixir.
+
+#HSLIDE
+## Защо Elixir?
+### Заради хората и проектите около него!
+
+#HSLIDE
+![Image-Absolute](assets/community.jpg)
+
+#HSLIDE
+#### Тук е времето да кажем няколко думи за _Phoenix_.
+* Лесен начин за писане на големи лесно-дистрибутирани web приложения.
+* Много от плюсовете идващи от основите на Erlang са валидни и използвани при Phoenix. <!-- .element: class="fragment" -->
+* Лесно е да се достигне до нещо работещо, подобно на Rails - framework-ът, който направи Ruby популярен език. <!-- .element: class="fragment" -->
+* Phoenix има вградена поддръжка на real-time комуникация. <!-- .element: class="fragment" -->
+* Също така е и доста по лесен за индивидуализиране от Rails. <!-- .element: class="fragment" -->
+
+#HSLIDE
+#### Други важни инструменти са _Mix_ и _Hex_, които позволяват лесна поддръжка на Elixir
+
+#HSLIDE
+#### Интересни връзки:
+* Добро място за задаване на въпроси или просто четене на мнения е [https://elixirforum.com](https://elixirforum.com)
+* Списък с компании които се занимават с Elixir - [https://github.com/doomspork/elixir-companies](https://github.com/doomspork/elixir-companies)
+* Библиотеки на Elixir по категории - [https://github.com/h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir)
+* Главна страница на Elixir - [http://elixir-lang.org](http://elixir-lang.org)
+
+#HSLIDE
+## Защо Elixir?
+### Заради синтаксиса!
+
+#HSLIDE
+![Image-Absolute](assets/syntax.jpeg)
+
+#HSLIDE
+#### Анонимни функции:
+* Това е функцията x<sup>2</sup>.
+
+```elixir
+fn (x) -> x * x end
+```
+
+#HSLIDE
+#### Анонимни функции:
+* Такава функция може да се извика така:
+
+```elixir
+(fn (x) -> x * x end).(3)
+# -> 9
+```
+
+#HSLIDE
+#### Анонимни функции:
+* Могат да се присвои на променлива:
+
+```elixir
+f = fn (x) -> x * x end
+f.(3)
+# -> 9
+```
+
+#HSLIDE
+#### Типове:
+* Променливите се дефинират без да се задава тип.
+* Те си получават типа взависимост от стойността им
+
+#HSLIDE
+#### Типове:
+
+```elixir
+5               # -> integer
+0x53            # -> integer, the same as 83
+5.5             # -> float
+false           # -> boolean
+:dalia          # -> atom
+"elixir"        # -> string
+[1, 2, 3]       # -> list
+[a: 1, b: 2]    # -> keyword list
+{1, 2}          # -> tuple
+fn (x) -> x end # function
+~r/\d+/         # regular expression
+%{a: 1, b: 2}   # map
+```
+
+#HSLIDE
+#### Типове:
+* Списъците в Elixir не са масиви. Те са свързани списъци.
+* Кортежите се ползват главно за `pattern matching`.
+* Erlang няма низове, има списък от букви, но не и истински стрингове. Elixir има - UTF-8 низове.
+* `'abc'` и `"abc"` са различни типове - единичните кавички са просто опростен синтаксис за списъка `[97, 98, 99]`.
+* Атомите са много подобно нещо на символите в Ruby. Добри са за кодове върнати от функции или ключове в `maps` или `keyword lists`.
+
+#HSLIDE
+#### Pattern matching:
+```elixir
+4 = 4                 # Интерпретира се без грешка
+5 = 4                 # Грешка - MatchError
+a = 4                 # Няма грешка, стойността на променливата 'а' става 4
+4 = b                 # Грешка - променливата b не съществува.
+4 = a                 # Успех - а съществува и стойносста ѝ е 4
+{d, e, 5} = {7, 6, 5} # Успех, d става 7, e става 6
+f = fn
+  (5) -> {:ok, 5}
+  (x) -> {:error, x}
+end
+{:ok, x} = f.(5)     # Успех, x получава стойност 5
+{:ok, x} = f.(6)     # Грешка, резултатът е {:error, 6}, и няма успех.
+```
+
+#HSLIDE
+#### Модули:
+Модулите са колекции от именовани функции.
+
+```eixir
+defmodule MyModule do
+  def square(x) do
+    x * x
+  end
+end
+```
+
+#HSLIDE
+#### Процеси:
+* Не става дума за OS-ниво процеси.
+* Всичко написано на Elixir се изпълнява в процеси.
+* Те са изолирани един от друг.
+* Много леки откъм ресурси (CPU/RAM).
+* Mогат да бъдат хиляди без да натоварват машината на която вървят.
+
+#HSLIDE
+#### Процеси:
+Процесите в Elixir/Erlang се създават със `spawn`.
+
+```elixir
+pid = spawn fn -> 2 * 21 end # Тази функция ще се изпълни в нов процес конкурентно на текущия.
+# pid e от #PID тип. Нещо подобно : #PID<0.42.0>
+Process.alive?(pid) # false, тъй като функцията е много проста и се е изпълнила светкавично
+
+# Можем да ползваме pid-а на текущия процес с:
+self()
+Process.alive?(self()) # true
+```
+
+#HSLIDE
+#### Процеси:
+
+```elixir
+send self(), {:howdy, "Как си?"}
+
+receive do
+  {:howdy, message} -> IO.puts(message)
+  {_, message} -> IO.puts("Няма значение")
+end
+# Ще изпечата 'Как си?
+```
+
+#HSLIDE
+### Защо Elixir?
+![Image-Absolute](assets/beers.jpg)
+
+#HSLIDE
+* Защото е модерен, бърз и конкурентен език.
+* Защото хората зад и около него са опитни.
+* Защото основата му, Erlang, е стабилна и доказана.
+* Защото е функционален език.
+* Защото е лесен за писане и четене.
+* Защото е подходящ за писане и поддръжка на много типове приложения.
+* Защото ще разшири кръгозора ви.
+
+#HSLIDE
+## Ресурси
+* Имаме блог http://blog.elixir-lang.bg
+* Имаме Facebook група https://www.facebook.com/groups/636900123169076/
+* Имаме mail листа TODO
+* Github https://github.com/ElixirCourse
+
+#HSLIDE
+## Информация за курса
+![Image-Absolute](assets/info.jpg)
+
+#HSLIDE
+## Въпроси?
+![Image-Absolute](assets/questions.jpg)
