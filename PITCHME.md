@@ -307,7 +307,7 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 * да мислите и моделирате чрез функции, а не обекти <!-- .element: class="fragment" -->
 * да съпоставяте образци <!-- .element: class="fragment" -->
 * да изпозвате git <!-- .element: class="fragment" -->
-* да сте истински шамани и алхимици способни да миксират всякави отвори  <!-- .element: class="fragment" -->
+* да сте истински шамани и алхимици способни да миксират всякави отвари  <!-- .element: class="fragment" -->
 
 #HSLIDE
 ## Организация на курса
@@ -340,4 +340,5 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 * Github https://github.com/ElixirCourse
 
 #HSLIDE
+## Това е за днес
 ![Image-Absolute](assets/questions.jpg)
