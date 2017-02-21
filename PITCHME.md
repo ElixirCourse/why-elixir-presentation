@@ -288,21 +288,14 @@ end
 * Защото ще разшири кръгозора ви.
 
 #HSLIDE
-## Ресурси
-* Имаме блог http://blog.elixir-lang.bg
-* Имаме Facebook група https://www.facebook.com/groups/636900123169076/
-* Имаме mail листа TODO
-* Github https://github.com/ElixirCourse
-
-#HSLIDE
-## Сега малко информация за курса
+## Малко информация за курса
 ![Image-Absolute](assets/info.jpg)
 
 #HSLIDE
 ## Добре дошли!
-* Ако сте записали курса за да вземете лесно някоя изборна, ОТПИШЕТЕ ГО, няма да ви е лесно. <!-- .element: class="fragment" -->
-* Ако сте записали курса за кредити, ОТПИШЕТЕ ГО, не си заслужав носи само 3,5 кредита. <!-- .element: class="fragment" -->
-* Ако смятате, че Обектно ориентираното програмиране е единтвения начин, този курс също не е за вас. <!-- .element: class="fragment" -->
+* Ако сте записали курса за да вземете някоя изборна, ОТПИШЕТЕ ГО, няма да ви е лесно. <!-- .element: class="fragment" -->
+* Ако сте записали курса за кредити, ОТПИШЕТЕ ГО, не си заслужав, носи само 3,5 кредита. <!-- .element: class="fragment" -->
+* Ако смятате, че Обектно ориентираното програмиране е единтвения начин, този курс не е за вас. <!-- .element: class="fragment" -->
 
 #HSLIDE
 ## Философия на курс
@@ -312,12 +305,13 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 ## Какво ще трябва да научите в курса
 * Elixir <!-- .element: class="fragment" -->
 * да мислите и моделирате чрез функции, а не обекти <!-- .element: class="fragment" -->
-* да съпоставяте образци :smiley: <!-- .element: class="fragment" -->
+* да съпоставяте образци <!-- .element: class="fragment" -->
 * да изпозвате git <!-- .element: class="fragment" -->
+* да сте истински шамани и алхимици способни да миксират всякави отвори  <!-- .element: class="fragment" -->
 
 #HSLIDE
 ## Организация на курса
-* Курсът ще се провежда всеки Втрник от 18&#58;15 до 21:00.
+* Курсът ще се провежда всеки Втрник от 18&#58;15 до 21:00.  <!-- .element: class="fragment" -->
 * Ще се стараем за всяка тема да имаме подробна публикация в блога ни. <!-- .element: class="fragment" -->
 * Обикновено на лекция ще имаме презентация, но винаги сме готови да обсъдим нещо, което не е включено в нея. <!-- .element: class="fragment" -->
 * Следващият път ще няправим кратък тест с няколко въпроса за програмиране. <!-- .element: class="fragment" -->
@@ -327,7 +321,7 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 ## Оценяване
 * Максимум 100 точки  <!-- .element: class="fragment" -->
   * Неизвестен брой домашни за общо 40 точки
-  * Kурсов проект за 40 до 80 точки(спрямо сложносттан най-често 60)
+  * Kурсов проект от 40 до 80 точки (Определени от нас спрямо сложносттан. Най-често 60 точки)
 * Допълнителни точки <!-- .element: class="fragment" -->
   * Бонус точки, ако добавите нещо, към някой проект с отворен код свързан с Elixir.
   * Бонус точки за неща, които ние преценим.
@@ -337,6 +331,13 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 Оценнка|2|3|4|5|6|
 -|-|-|-|-|-
 Точки|0-49|50-57|58-74|75-91|92-100
+
+#HSLIDE
+## Ресурси
+* Имаме блог http://blog.elixir-lang.bg
+* Имаме Facebook група https://www.facebook.com/groups/636900123169076/
+* Имаме mail листа [course@elixir-lang.bg](mailto:course@elixir-lang.bg)
+* Github https://github.com/ElixirCourse
 
 #HSLIDE
 ![Image-Absolute](assets/questions.jpg)
