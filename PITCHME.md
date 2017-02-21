@@ -339,5 +339,4 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 Точки|0-49|50-57|58-74|75-91|92-100
 
 #HSLIDE
-## Въпроси?
 ![Image-Absolute](assets/questions.jpg)
