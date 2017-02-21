@@ -295,8 +295,45 @@ end
 * Github https://github.com/ElixirCourse
 
 #HSLIDE
-## Информация за курса
 ![Image-Absolute](assets/info.jpg)
+
+#HSLIDE
+## Информация за курса
+* Ако сте записали курса за да вземете лесно някоя изборна, ОТПИШЕТЕ ГО, няма да ви е лесно.
+* Ако сте записали курса за кредити, ОТПИШЕТЕ ГО, не си заслужав носи само 3,5 кредита. <!-- .element: class="fragment" -->
+* Ако смятате, че Обектно ориентираното програмиране е единтвения начин, този курс също не е за вас. <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Философия на курс
+There will be no foolish wand waving or silly incantations in this class. As such, I don't expect many of you to enjoy the subtle science and exact art that is potion making. However, for those select few, who possess the predisposition, I can teach you how to bewitch the mind and ensnare the senses. I can tell you how to bottle fame, brew glory and even put a stopper in death.
+
+#HSLIDE
+## Какво ще трябва да научите в курса
+* да моделирате програми чрез функции
+* да съпоставяте образци <!-- .element: class="fragment" -->
+* да изпозвате git <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Организация на курса
+* Курсът ще се провежда всеки Втрник от 18&#58;15 до 21:00.
+* Ще се стараем за всяка тема да имаме подробна публикация в блога ни. <!-- .element: class="fragment" -->
+* Обикновено на лекция ще имаме презентация, но винаги сме готови да обсъдим нещо което не е включено в нея. <!-- .element: class="fragment" -->
+* Следващият път ще няправим тест с няколко въпроса за програмиране. <!-- .element: class="fragment" -->
+* След теста може да бъдете отписани от курса. <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Оценяване
+* Максимум 100 точки
+  * Неизвестен брой домашни за общо 40 точки
+  * Kурсов проект за 40 до 80 точки(спрямо сложносттан най-често 60)
+* Допълнителни точки <!-- .element: class="fragment" -->
+  * Бонус точки за ако добавите нещо, към някой проект с отворен код свързан с Elixir.
+  * Бонус точки за неща които ние преценим.
+
+## Скала за оценяване
+Оценнка|2|3|4|5|6|
+-|-|-|-|-|-
+Точки|0-49|50-57|58-74|75-91|92-100
 
 #HSLIDE
 ## Въпроси?
